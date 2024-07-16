@@ -1,0 +1,57 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.carousel-item img {
+    height: 600px;
+    object-fit: cover;
+}
+
+#quienes-somos i {
+    color: #007bff;
+}
+
+#destacados .card {
+    border: none;
+    border-radius: 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+#destacados .card:hover {
+    transform: scale(1.05);
+}
+
+#contacto form .form-control {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #ced4da;
+}
+
+#contacto form .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 0;
+}
+
+footer {
+    background-color: #f8f9fa;
+}
+
+footer a {
+    color: #6c757d;
+    transition: color 0.3s ease-in-out;
+}
+
+footer a:hover {
+    color: #007bff;
+}
+
+/* Smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
